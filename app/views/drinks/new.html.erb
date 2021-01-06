@@ -1,0 +1,7 @@
+<h1>New Drink</h1>
+<%= form_for(brink) do |f| %>
+<h2>Drink Name</h2>
+<%= f.text_field :drink_name %>
+<%= f.attachment_field :image %>
+<h2>Details</h2>
+<%= f.text_field :body %>
